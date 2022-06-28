@@ -1,0 +1,80 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: aquamarine;
+}
+
+#app {
+	background-color: white;
+	width: 500px;
+	margin: 50px auto;
+	border: dashed 2px #ccc;
+	padding: 20px;
+}
+
+.page-title {
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+#value {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 40px;
+	font-weight: bolder;
+}
+
+.tasks-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.task {
+	display: flex;
+	flex-direction: row-reverse;
+	margin: 20px 0;
+	align-items: center;
+}
+
+.task .title {
+	margin-right: 20px;
+	padding: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+}
+
+input[type="text"] {
+	padding: 10px;
+	border: solid 1px #ccc;
+	width: 300px;
+}
+
+.done,
+button,
+input[type="submit"] {
+	padding: 10px;
+	border: none;
+	background-color: #003366;
+	color: white;
+	border-radius: 5px;	
+}
+
+.done {
+	background-color: green;
+}
+
+#taskName {
+	text-align: center;
+	padding: 10px;
+	font-size: 30px;
+}
+
+.delete {
+	margin-left: 10px;
+}
