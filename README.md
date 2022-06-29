@@ -10,5 +10,5 @@ Just download the files or clone the repo.
 
 open index.html in your browser
 
-### Languages
+### Technologies
 HTML, CSS, Javascript
